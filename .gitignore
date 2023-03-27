@@ -1,0 +1,44 @@
+# Arquivos e diretórios do projeto
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.swn
+*.db
+
+# Virtualenv
+venv/
+
+# Docker
+Dockerfile
+.dockerignore
+*.dockerfile
+.docker/
+*.docker/
+docker-compose.yml
+docker-compose.override.yml
+docker-compose.*.yml
+.docker-compose/
+
+# Outros arquivos e diretórios
+*.log
+*.tmp
+*.bak
+*.cache
+*.egg-info/
+dist/
+*.egg
+*.so
+*.dylib
+*.tar.gz
+
+# Arquivos de configuração dos editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
