@@ -22,3 +22,12 @@ async def upload_cnab(file: UploadFile = File(...), db: Session = Depends(databa
 def read_transactions(skip: int = 0, limit: int = 100, db: Session = Depends(database.get_db)):
     transactions = crud.get_transactions(db, skip=skip, limit=limit)
     return transactions
+
+@app.get("/upload/", response_class=HTMLResponse)
+def upload_form():
+    return '''
+    <form action="/upload/" enctype="multipart/form-data" method="post">
+        <input name="file" type="file" accept=".txt">
+        <input type="submit" value="Upload">
+    </form>
+    '''
