@@ -1,28 +1,33 @@
 # Pré-requisitos
-Antes de começar, certifique-se de ter o seguinte software instalado em seu sistema:
+**Antes de começar, certifique-se de ter o seguinte software instalado em seu sistema:**
 
 Docker
+
 Docker Compose
+
 Python 3.8 ou superior
+
 pip (gerenciador de pacotes Python)
 
 # Início
 
-Clone o repositório:
+**Clone o repositório:**
 
 git clone https://github.com/seuusername/desafio-dev.git
+
 cd desafio-dev
 
-Instale os pacotes Python necessários:
+**Instale os pacotes Python necessários:**
 
 pip install -r requirements.txt
 
-Construa e execute os containers Docker usando o Docker Compose:
+**Construa e execute os containers Docker usando o Docker Compose:**
 
 docker-compose build
+
 docker-compose up
 
-A aplicação FastAPI estará disponível em http://localhost:8000 e o banco de dados PostgreSQL será executado na porta 5432.
+**A aplicação FastAPI estará disponível em http://localhost:8000 e o banco de dados PostgreSQL será executado na porta 5432.**
 
 
 # Endpoints
