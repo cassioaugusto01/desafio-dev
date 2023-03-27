@@ -2,6 +2,9 @@ import httpx
 import pytest
 from app.main import app
 from fastapi.testclient import TestClient
+from dotenv import load_dotenv
+
+load_dotenv(".env.test")
 
 client = TestClient(app)
 
