@@ -14,17 +14,6 @@ __pycache__/
 # Virtualenv
 venv/
 
-# Docker
-Dockerfile
-.dockerignore
-*.dockerfile
-.docker/
-*.docker/
-docker-compose.yml
-docker-compose.override.yml
-docker-compose.*.yml
-.docker-compose/
-
 # Outros arquivos e diretórios
 *.log
 *.tmp
